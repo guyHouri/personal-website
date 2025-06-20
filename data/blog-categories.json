@@ -1,0 +1,137 @@
+[
+  {
+    "id": 1,
+    "name": "EMF",
+    "slug": "emf",
+    "parent_id": null,
+    "description": "Electromagnetic Fields and their effects",
+    "created_at": "2024-01-01T00:00:00Z",
+    "updated_at": "2024-01-01T00:00:00Z"
+  },
+  {
+    "id": 2,
+    "name": "Health",
+    "slug": "health",
+    "parent_id": null,
+    "description": "Health optimization and wellness",
+    "created_at": "2024-01-01T00:00:00Z",
+    "updated_at": "2024-01-01T00:00:00Z"
+  },
+  {
+    "id": 3,
+    "name": "Technology",
+    "slug": "technology",
+    "parent_id": null,
+    "description": "Technology optimization and reviews",
+    "created_at": "2024-01-01T00:00:00Z",
+    "updated_at": "2024-01-01T00:00:00Z"
+  },
+  {
+    "id": 4,
+    "name": "Electricity",
+    "slug": "electricity",
+    "parent_id": 1,
+    "description": "Electrical EMF sources and mitigation",
+    "created_at": "2024-01-01T00:00:00Z",
+    "updated_at": "2024-01-01T00:00:00Z"
+  },
+  {
+    "id": 5,
+    "name": "RF/Wireless",
+    "slug": "rf-wireless",
+    "parent_id": 1,
+    "description": "Radio frequency and wireless EMF",
+    "created_at": "2024-01-01T00:00:00Z",
+    "updated_at": "2024-01-01T00:00:00Z"
+  },
+  {
+    "id": 6,
+    "name": "Magnetic Fields",
+    "slug": "magnetic-fields",
+    "parent_id": 1,
+    "description": "Magnetic field sources and effects",
+    "created_at": "2024-01-01T00:00:00Z",
+    "updated_at": "2024-01-01T00:00:00Z"
+  },
+  {
+    "id": 7,
+    "name": "Home Desk",
+    "slug": "home-desk",
+    "parent_id": 4,
+    "description": "Optimizing your home office setup",
+    "created_at": "2024-01-01T00:00:00Z",
+    "updated_at": "2024-01-01T00:00:00Z"
+  },
+  {
+    "id": 8,
+    "name": "Bedroom",
+    "slug": "bedroom",
+    "parent_id": 4,
+    "description": "Creating a low-EMF bedroom environment",
+    "created_at": "2024-01-01T00:00:00Z",
+    "updated_at": "2024-01-01T00:00:00Z"
+  },
+  {
+    "id": 9,
+    "name": "Kitchen",
+    "slug": "kitchen",
+    "parent_id": 4,
+    "description": "Kitchen EMF optimization",
+    "created_at": "2024-01-01T00:00:00Z",
+    "updated_at": "2024-01-01T00:00:00Z"
+  },
+  {
+    "id": 10,
+    "name": "Sleep",
+    "slug": "sleep",
+    "parent_id": 2,
+    "description": "Sleep optimization strategies",
+    "created_at": "2024-01-01T00:00:00Z",
+    "updated_at": "2024-01-01T00:00:00Z"
+  },
+  {
+    "id": 11,
+    "name": "Nutrition",
+    "slug": "nutrition",
+    "parent_id": 2,
+    "description": "Nutritional optimization",
+    "created_at": "2024-01-01T00:00:00Z",
+    "updated_at": "2024-01-01T00:00:00Z"
+  },
+  {
+    "id": 12,
+    "name": "Exercise",
+    "slug": "exercise",
+    "parent_id": 2,
+    "description": "Exercise and movement optimization",
+    "created_at": "2024-01-01T00:00:00Z",
+    "updated_at": "2024-01-01T00:00:00Z"
+  },
+  {
+    "id": 13,
+    "name": "EMF Meters",
+    "slug": "emf-meters",
+    "parent_id": 3,
+    "description": "EMF measurement devices",
+    "created_at": "2024-01-01T00:00:00Z",
+    "updated_at": "2024-01-01T00:00:00Z"
+  },
+  {
+    "id": 14,
+    "name": "Shielding",
+    "slug": "shielding",
+    "parent_id": 3,
+    "description": "EMF shielding products and techniques",
+    "created_at": "2024-01-01T00:00:00Z",
+    "updated_at": "2024-01-01T00:00:00Z"
+  },
+  {
+    "id": 15,
+    "name": "Software",
+    "slug": "software",
+    "parent_id": 3,
+    "description": "Software tools for optimization",
+    "created_at": "2024-01-01T00:00:00Z",
+    "updated_at": "2024-01-01T00:00:00Z"
+  }
+]

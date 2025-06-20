@@ -1,0 +1,275 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 222.2 84% 4.9%;
+    --card: 0 0% 100%;
+    --card-foreground: 222.2 84% 4.9%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 222.2 84% 4.9%;
+    --primary: 222.2 47.4% 11.2%;
+    --primary-foreground: 210 40% 98%;
+    --secondary: 210 40% 96%;
+    --secondary-foreground: 222.2 47.4% 11.2%;
+    --muted: 210 40% 96%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+    --accent: 210 40% 96%;
+    --accent-foreground: 222.2 47.4% 11.2%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+    --ring: 222.2 84% 4.9%;
+    --radius: 0.5rem;
+    --chart-1: 12 76% 61%;
+    --chart-2: 173 58% 39%;
+    --chart-3: 197 37% 24%;
+    --chart-4: 43 74% 66%;
+    --chart-5: 27 87% 67%;
+  }
+
+  .dark {
+    --background: 0 0% 0%;
+    --foreground: 0 0% 95%;
+    --card: 0 0% 3%;
+    --card-foreground: 0 0% 95%;
+    --popover: 0 0% 3%;
+    --popover-foreground: 0 0% 95%;
+    --primary: 0 0% 95%;
+    --primary-foreground: 0 0% 5%;
+    --secondary: 0 0% 8%;
+    --secondary-foreground: 0 0% 95%;
+    --muted: 0 0% 8%;
+    --muted-foreground: 0 0% 65%;
+    --accent: 0 0% 8%;
+    --accent-foreground: 0 0% 95%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 95%;
+    --border: 0 0% 15%;
+    --input: 0 0% 15%;
+    --ring: 0 0% 83%;
+    --chart-1: 220 70% 50%;
+    --chart-2: 160 60% 45%;
+    --chart-3: 30 80% 55%;
+    --chart-4: 280 65% 60%;
+    --chart-5: 340 75% 55%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border transition-colors duration-300 ease-in-out;
+  }
+  body {
+    @apply bg-gradient-to-br from-orange-100 via-pink-100 to-purple-100 dark:from-black dark:via-gray-900 dark:to-black text-foreground min-h-screen transition-all duration-500 ease-in-out;
+  }
+
+  /* Smooth transitions for all elements */
+  html {
+    transition: color-scheme 0.3s ease-in-out;
+  }
+
+  html.dark {
+    color-scheme: dark;
+  }
+}
+
+/* Sunset gradient variations for light mode */
+.sunset-primary {
+  background: linear-gradient(135deg, #ff9a56 0%, #ff6b9d 50%, #c44569 100%);
+  transition: background 0.3s ease-in-out;
+}
+
+.sunset-secondary {
+  background: linear-gradient(135deg, #ffa726 0%, #ff7043 50%, #e91e63 100%);
+  transition: background 0.3s ease-in-out;
+}
+
+.sunset-tertiary {
+  background: linear-gradient(135deg, #ffb74d 0%, #ff8a65 50%, #f06292 100%);
+  transition: background 0.3s ease-in-out;
+}
+
+.sunset-card {
+  background: linear-gradient(
+    135deg,
+    rgba(255, 154, 86, 0.1) 0%,
+    rgba(255, 107, 157, 0.1) 50%,
+    rgba(196, 69, 105, 0.1) 100%
+  );
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 154, 86, 0.2);
+  transition: all 0.3s ease-in-out;
+}
+
+/* Black moonlight theme for dark mode */
+.dark .sunset-primary {
+  background: linear-gradient(135deg, #000000 0%, #1a1a1a 50%, #2d2d2d 100%);
+}
+
+.dark .sunset-secondary {
+  background: linear-gradient(135deg, #000000 0%, #0f0f0f 50%, #1a1a1a 100%);
+}
+
+.dark .sunset-tertiary {
+  background: linear-gradient(135deg, #0a0a0a 0%, #1a1a1a 50%, #2d2d2d 100%);
+}
+
+.dark .sunset-card {
+  background: linear-gradient(135deg, rgba(0, 0, 0, 0.8) 0%, rgba(10, 10, 10, 0.9) 50%, rgba(0, 0, 0, 0.8) 100%);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.sun-glow {
+  box-shadow: 0 0 20px rgba(255, 154, 86, 0.3), 0 0 40px rgba(255, 107, 157, 0.2);
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.dark .sun-glow {
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.1), 0 0 40px rgba(255, 255, 255, 0.05);
+}
+
+/* Prose styles for blog content - PURE BLACK IN DARK MODE */
+.prose {
+  @apply max-w-none transition-colors duration-300 ease-in-out;
+}
+
+.prose h1 {
+  @apply text-3xl font-bold text-gray-900 dark:text-gray-100 mb-6 transition-colors duration-300;
+}
+
+.prose h2 {
+  @apply text-2xl font-bold text-gray-900 dark:text-gray-100 mb-4 mt-8 transition-colors duration-300;
+}
+
+.prose h3 {
+  @apply text-xl font-semibold text-gray-900 dark:text-gray-100 mb-3 mt-6 transition-colors duration-300;
+}
+
+.prose p {
+  @apply text-gray-700 dark:text-gray-300 mb-4 leading-relaxed transition-colors duration-300;
+}
+
+.prose ul,
+.prose ol {
+  @apply text-gray-700 dark:text-gray-300 mb-4 pl-6 transition-colors duration-300;
+}
+
+.prose li {
+  @apply mb-2 transition-colors duration-300;
+}
+
+.prose strong {
+  @apply font-semibold text-gray-900 dark:text-gray-100 transition-colors duration-300;
+}
+
+.prose code {
+  @apply bg-orange-100 dark:bg-gray-800 px-2 py-1 rounded text-sm transition-colors duration-300;
+}
+
+.prose blockquote {
+  @apply border-l-4 border-orange-500 dark:border-gray-400 pl-4 italic text-gray-600 dark:text-gray-400 my-6 transition-colors duration-300;
+}
+
+/* Animation for sun/moon icons */
+@keyframes sun-rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes moon-glow {
+  0%,
+  100% {
+    opacity: 0.8;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.05);
+  }
+}
+
+.sun-rotate {
+  animation: sun-rotate 20s linear infinite;
+}
+
+.sun-pulse {
+  animation: pulse 2s ease-in-out infinite alternate;
+}
+
+.dark .sun-pulse {
+  animation: moon-glow 3s ease-in-out infinite;
+}
+
+.dark .sun-rotate {
+  animation: moon-glow 4s ease-in-out infinite;
+}
+
+/* Dark mode specific overrides for better moonlight theme */
+.dark {
+  color-scheme: dark;
+}
+
+.dark body {
+  background: linear-gradient(135deg, #000000 0%, #0a0a0a 25%, #1a1a1a 50%, #0a0a0a 75%, #000000 100%);
+}
+
+/* Ensure all text elements transition smoothly */
+.dark .text-gray-900 {
+  @apply text-gray-100;
+}
+
+.dark .text-gray-800 {
+  @apply text-gray-200;
+}
+
+.dark .text-gray-700 {
+  @apply text-gray-300;
+}
+
+.dark .text-gray-600 {
+  @apply text-gray-400;
+}
+
+.dark .bg-white {
+  @apply bg-black;
+}
+
+.dark .bg-gray-50 {
+  @apply bg-gray-900;
+}
+
+.dark .bg-gray-100 {
+  @apply bg-gray-800;
+}
+
+.dark .border-gray-200 {
+  @apply border-gray-700;
+}
+
+.dark .border-gray-300 {
+  @apply border-gray-600;
+}
+
+/* Blog post content specific dark mode styling */
+.blog-content {
+  @apply transition-all duration-300 ease-in-out;
+}
+
+.dark .blog-content {
+  background: linear-gradient(135deg, #000000 0%, #0a0a0a 50%, #000000 100%);
+  color: #e5e5e5;
+}
+
+/* Search highlight styling */
+.search-highlight {
+  @apply bg-yellow-200 dark:bg-yellow-900 dark:text-yellow-100 px-1 rounded transition-colors duration-300;
+}

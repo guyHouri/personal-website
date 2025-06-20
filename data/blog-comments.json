@@ -1,0 +1,79 @@
+[
+  {
+    "id": 1,
+    "post_id": 1,
+    "parent_id": null,
+    "author_name": "Sarah Johnson",
+    "author_email": "sarah@example.com",
+    "content": "This is exactly what I needed! I've been working from home for two years and never considered EMF exposure. Going to start with moving my router away from my desk.",
+    "approved": true,
+    "created_at": "2024-01-16T09:30:00Z",
+    "updated_at": "2024-01-16T09:30:00Z"
+  },
+  {
+    "id": 2,
+    "post_id": 1,
+    "parent_id": 1,
+    "author_name": "Guy Houri",
+    "author_email": "guy.houri2024@gmail.com",
+    "content": "Great starting point, Sarah! Moving the router is one of the highest-impact changes you can make. Let me know how it goes!",
+    "approved": true,
+    "created_at": "2024-01-16T14:15:00Z",
+    "updated_at": "2024-01-16T14:15:00Z"
+  },
+  {
+    "id": 3,
+    "post_id": 1,
+    "parent_id": null,
+    "author_name": "Mike Chen",
+    "author_email": "mike@example.com",
+    "content": "I bought the Trifield TF2 after reading this article. The readings around my desk were shocking! Already ordered ethernet cables to replace my WiFi setup.",
+    "approved": true,
+    "created_at": "2024-01-17T16:45:00Z",
+    "updated_at": "2024-01-17T16:45:00Z"
+  },
+  {
+    "id": 4,
+    "post_id": 2,
+    "parent_id": null,
+    "author_name": "Lisa Rodriguez",
+    "author_email": "lisa@example.com",
+    "content": "Fantastic comparison of EMF meters! I was torn between the TF2 and the HF32D. Your breakdown helped me choose the TF2 as a beginner.",
+    "approved": true,
+    "created_at": "2024-01-11T10:20:00Z",
+    "updated_at": "2024-01-11T10:20:00Z"
+  },
+  {
+    "id": 5,
+    "post_id": 2,
+    "parent_id": 4,
+    "author_name": "Guy Houri",
+    "author_email": "guy.houri2024@gmail.com",
+    "content": "Perfect choice, Lisa! The TF2 is ideal for getting started. Once you're comfortable with the basics, you can always upgrade to more specialized equipment later.",
+    "approved": true,
+    "created_at": "2024-01-11T15:30:00Z",
+    "updated_at": "2024-01-11T15:30:00Z"
+  },
+  {
+    "id": 6,
+    "post_id": 3,
+    "parent_id": null,
+    "author_name": "David Park",
+    "author_email": "david@example.com",
+    "content": "I implemented the phone-free bedroom rule and noticed better sleep within just a few days. Amazing how much difference such a simple change can make!",
+    "approved": true,
+    "created_at": "2024-01-09T08:15:00Z",
+    "updated_at": "2024-01-09T08:15:00Z"
+  },
+  {
+    "id": 7,
+    "post_id": 5,
+    "parent_id": null,
+    "author_name": "Emma Thompson",
+    "author_email": "emma@example.com",
+    "content": "The 30-day challenge sounds perfect! I've been struggling with sleep for months. Starting with morning light exposure tomorrow. Will report back with results!",
+    "approved": true,
+    "created_at": "2024-01-04T19:45:00Z",
+    "updated_at": "2024-01-04T19:45:00Z"
+  }
+]
