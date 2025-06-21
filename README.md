@@ -1,24 +1,44 @@
-# Maximize Yourself - A Decentralized Thinker website
+# Decentralized Maximizer (WIP - May be Buggy)
 
-[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/guyhouri2024-3064s-projects/v0-dcentralize-urself-website)
+## Personal Portfolio & Blog
 
-[![Built with v0](https://img.shields.io/badge/Built%20with-v0.dev-black?style=for-the-badge)](https://v0.dev/chat/projects/HzeYxTX462X)
+Visit the live application: [https://dcentramax.vercel.app/](https://dcentramax.vercel.app/ "null")
 
-## Deployment
+### 🌟 Project Status: Work In Progress (WIP) 🌟
 
-Your project is live at:
+This project is currently under active development. Features are being built out, refined, and optimized. Please note that it may still contain **bugs** and is not yet feature-complete.
 
-**[https://vercel.com/guyhouri2024-3064s-projects/v0-dcentralize-urself-website](https://vercel.com/guyhouri2024-3064s-projects/v0-dcentralize-urself-website)**
+### ✨ About Decentralized Maximizer
 
-## Build your app
+"The Maximizer" is a personal portfolio and blog application dedicated to the principles of **decentralization** and **life maximization** . It explores strategies for optimizing health, environment, and technology to achieve peak performance and holistic well-being.
 
-Continue building your app on:
+Through this platform, I share my journey as a Full-Stack Developer and provide insights, practical guides, and recommendations for living an optimized and decentralized life.
 
-**[https://v0.dev/chat/projects/HzeYxTX462X](https://v0.dev/chat/projects/HzeYxTX462X)**
+### 🌐 What the Website Includes
 
-## How It Works
+- **Personal Portfolio Pages:** Dedicated sections showcasing my background, skills, and professional experiences.
+- **Decentralized Living Blog:** A content hub with articles and practical guides on various optimization topics.
+- **About Me Section:** Personal details and a closer look into my life.
 
-1. Create and modify your project using [v0.dev](https://v0.dev)
-2. Deploy your chats from the v0 interface
-3. Changes are automatically pushed to this repository
-4. Vercel deploys the latest version from this repository
+### 💻 Tech Stack
+
+This project is built with the following cutting-edge technologies:
+
+- **Framework:** [Next.js](https://nextjs.org/ "null") (App Router)
+- **UI Library:** [React](https://react.dev/ "null")
+- **Language:** [TypeScript](https://www.typescriptlang.org/ "null")
+- **Styling:** [Tailwind CSS](https://tailwindcss.com/ "null")
+- **UI Components:** [Shadcn UI](https://ui.shadcn.com/ "null")
+- **Theming:** [next-themes](https://github.com/pacocoursey/next-themes "null")
+- **Icons:** [Lucide React](https://lucide.dev/icons/ "null")
+- **Deployment:** [Vercel](https://vercel.com/ "null")
+- **Database (Planned/Under Integration):** PostgreSQL (via Neon DB)
+- **Linting:** ESLint
+- **Code Formatting:** Prettier
+
+### 📧 Contact
+
+**Guy Houri** - Full-Stack Developer & Life Maximizer
+
+- **Email:** guy.houri2024@gmail.com
+- **Portfolio/Blog:** [https://dcentramax.vercel.app/](https://dcentramax.vercel.app/ "null")
