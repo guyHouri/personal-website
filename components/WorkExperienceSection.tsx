@@ -2,7 +2,7 @@
 
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Briefcase, Calendar, Sun, Moon } from "lucide-react"
-import { useTheme } from "./ThemeProvider"
+import { useTheme } from "next-themes";
 import { workExperienceData } from "@/data/portfolio"
 
 export function WorkExperienceSection() {

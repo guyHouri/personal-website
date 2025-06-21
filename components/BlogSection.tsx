@@ -4,7 +4,7 @@ import { useRouter } from "next/navigation"
 import { Card, CardContent } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import { BookOpen, ArrowRight, User, Sun, Moon, Sunrise } from "lucide-react"
-import { useTheme } from "./ThemeProvider"
+import { useTheme } from "next-themes";
 import type { BlogPostWithCategory, BlogCategory } from "@/lib/db"
 
 interface BlogSectionProps {

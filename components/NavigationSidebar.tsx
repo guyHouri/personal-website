@@ -19,7 +19,7 @@ import {
   Sun,
   Moon,
 } from "lucide-react"
-import { useTheme } from "./ThemeProvider"
+import { useTheme } from "next-themes";
 import type { BlogCategory, BlogPostWithCategory } from "@/lib/db"
 
 interface NavigationSidebarProps {

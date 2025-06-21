@@ -2,7 +2,7 @@
 
 import { Button } from "@/components/ui/button"
 import { Mail, Linkedin, ExternalLink, Sun, Moon } from "lucide-react"
-import { useTheme } from "./ThemeProvider"
+import { useTheme } from "next-themes";
 import { contactInfo } from "@/data/portfolio"
 
 export function ContactSection() {

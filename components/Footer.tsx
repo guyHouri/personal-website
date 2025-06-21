@@ -1,7 +1,7 @@
 "use client"
 
 import { Sun, Moon } from "lucide-react"
-import { useTheme } from "./ThemeProvider"
+import { useTheme } from "next-themes";
 
 export function Footer() {
   const { theme } = useTheme()

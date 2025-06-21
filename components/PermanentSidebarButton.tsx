@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button"
 import { Sun, Moon, Menu } from "lucide-react"
 import { Sheet, SheetContent, SheetHeader, SheetTitle } from "@/components/ui/sheet"
 import { NavigationSidebar } from "./NavigationSidebar"
-import { useTheme } from "./ThemeProvider"
+import { useTheme } from "next-themes";
 import type { BlogCategory, BlogPostWithCategory } from "@/lib/db"
 
 interface PermanentSidebarButtonProps {

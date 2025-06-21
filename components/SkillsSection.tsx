@@ -4,7 +4,7 @@ import type React from "react"
 import { Badge } from "@/components/ui/badge"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Code, Database, Server, Globe, GitBranch, Users, Sun, Moon } from "lucide-react"
-import { useTheme } from "./ThemeProvider"
+import { useTheme } from "next-themes";
 import { skillsData } from "@/data/portfolio"
 
 interface SkillCategoryProps {
